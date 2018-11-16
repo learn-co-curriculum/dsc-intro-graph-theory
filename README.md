@@ -76,6 +76,10 @@ Let's have a look at another graph below. The points in the visual represent the
 
 <img src="got.png" width=700>
 
+## Additional Resources
+* [Graph Theory Basics](https://www.geeksforgeeks.org/mathematics-graph-theory-basics-set-1/)
+* [A Gentle Introduction to Graph Theory](https://medium.com/basecs/a-gentle-introduction-to-graph-theory-77969829ead8)
+
 ## Summary 
 
 In this lesson, we looked at basics of graph theory and what comprises a graph. We looked at how nodes and edges can form different formations within a graph. We also looked at some example of real world graphs. NExt we shall start digging a bit deeper into this topics and start building our graphs using the popular python library called `NetworkX`.
