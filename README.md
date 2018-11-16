@@ -50,7 +50,7 @@ Weighted graphs may be shown with a weight value explicitly written, or visually
 <img src="weight.jpg" width=500>
 
 
-In some cases, weights may be associated with nodes themselves instead of graphs , these options are shown below:
+In some cases, weights may be associated with nodes themselves instead of edges , these options are shown below:
 <img src="edge.gif" width=500>
 
 
