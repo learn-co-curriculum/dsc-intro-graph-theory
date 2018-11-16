@@ -70,7 +70,7 @@ One the key benefits of using graphs in the data science domain is that its a gr
 
 Graphs allow us to visualize and process data in more detail, while using visual cues and other elements highlighting the relationships between different objects . For example, in the Twitter network graph below, (built using Python NetworkX, which we shall see shortly). This graph is based on the use of mention @Walmart.  We can see a strong tweet connection with Huggies. Network graphs like the one above can be used to study interactions in social media which may lead to insights that can be useful in the real world. 
 
-<img src="walmart.jpg" width=700>
+<img src="walmart.JPG" width=700>
 
 Let's have a look at another graph below. The points in the visual represent the characters of Game of Thrones, while the lines joining these points represent the connection between them. Jon Snow has connections with multiple characters, and the same goes for Tyrion, Cersei, Jamie, etc.
 
