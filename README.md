@@ -12,12 +12,20 @@ Graph theory is the study of mathematical structures used to model pairwise rela
 
 ### So what is a graph 
 
-Right let's quickly see some basic definitions ..
+A graph is one of the most common mathematical abstractions of data. Even if you have never encountered this mathematical concept before, you have most likely seen graphs in routine observations. A project plan, a circuit,  dependencies between code blocks in a software project are all examples of graphs. In this section we shall focus at the aspects of graph processing that play a role in network analysis (or social network analysis).
+```
+ Liza------likes------>Bob
+(noun)     (verb)     (noun)
+```
+Above example shows the most basic network called a dyad. Every dyad denotes a single relationship (an edge) *likes*. The nouns in the phrase represent people involved in the relationship (known as a node). 
 
-A "**Graph**" in mathematical and computer science terms consists of "**Nodes**" or "**Vertices**". Nodes/Vertices may or may not be connected with one another. The connecting line between two nodes is called an "**edge**". This is shown in the example below:
+Right, so let's quickly see some basic definitions ..
 
+>A "**Graph**" in mathematical and computer science terms consists of "**Nodes**" or "**Vertices**". Nodes/Vertices may or may not be connected with one another. The connecting line between two nodes is called an "**edge**". This is shown in the example below:
 
-### Parts of Graphs
+In social network analysis, nodes have a type. Each node may show a person, a company, a website, a tweet, etc. If a      graph contains nodes of only one type, it’s called a **1-mode graph**. If it contains relationships between      two types, it’s **bimodal** or 2-mode. We can also have **multimodal graphs**.
+
+### Parts of a Graph
 
 <img src="http://i.imgur.com/upMNKXf.png" width="400">
 
@@ -29,9 +37,8 @@ __Attributes__: Both nodes and edges can store attributes, which contain additio
 
 __Weight__: A common *attribute* of edges, used to indicate *strength* or *value* of a relationship.
 
-__Degree__: Number of edges a node has.
 
-### Types of Graphs
+### Graph Characteristics
 
 Graphs are typically classified based on the presence of weights and direction attached to the edges in a graph. The table below covers what we call each type of graph:
 
@@ -53,8 +60,37 @@ Weighted graphs may be shown with a weight value explicitly written, or visually
 In some cases, weights may be associated with nodes themselves instead of edges , these options are shown below:
 <img src="edge.gif" width=500>
 
+Here are some more terms that you will come across in graph analysis
+
+### Adjacent node
+A node 'v' is said to be adjacent node of node 'u' if and only if there exists an edge between 'u' and 'v'.
+
+### Degree of a node
+* In an undirected graph the number of nodes incident on a node is the **degree** of the node.
+* In case of directed graph, **Indegree** of the node is the number of arriving edges to a node, whereas, **Outdegree** of the node is the number of departing edges to a node.
+![](deg.png)
+
+### Isolated node:
+A node with degree 0 is known as isolated node.Isolated node can be found by Breadth first search(BFS). It finds its application in LAN network in finding whether a system is connected or not.
+
+### Path: 
+A path of length 'n' from node 'u' to node 'v' is defined as sequence of n+1 nodes.
+
+$$P(u,v)=(v0,v1,v2,v3…….vn)$$
+
+A path is simple if all the nodes are distinct,exception is source and destination are same.
+
+
 
 ### This is good , But why do I need to know about this ?
+
+Graph is a data structure which is used extensively in our real-life.
+
+* **Social Networks**: Each user is represented as a node and all their activities,suggestion and friend list are represented as an edge between the nodes.
+* **Google Maps**: Various locations are represented as vertices or nodes and the roads are represented as edges and graph theory is used to find shortest path between two nodes.
+* **Recommendations on e-commerce websites**: The “Recommendations for you” section on various e-commerce websites uses graph theory to recommend items of similar type to user’s choice.
+* Graph theory is also used to study molecules in chemistry and physics.
+
 
 Think of an example of booking an Uber taxi using Uber's intelligent system relation drivers to clients. Think of Uber connecting a client to number of possible drivers , which can be shown as the graph below:
 
@@ -81,5 +117,6 @@ Let's have a look at another graph below. The points in the visual represent the
 * [A Gentle Introduction to Graph Theory](https://medium.com/basecs/a-gentle-introduction-to-graph-theory-77969829ead8)
 
 ## Summary 
+![](summary.png)
 
 In this lesson, we looked at basics of graph theory and what comprises a graph. We looked at how nodes and edges can form different formations within a graph. We also looked at some example of real world graphs. NExt we shall start digging a bit deeper into this topics and start building our graphs using the popular python library called `NetworkX`.
