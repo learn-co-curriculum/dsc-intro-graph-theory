@@ -6,11 +6,14 @@
 Graph theory is the study of mathematical structures used to model pairwise relations between objects, otherwise known as graphs. Such a structure is made up of vertices, nodes, or points which are connected by edges, arcs, or lines. Network theory is a part of graph theory: a network can be defined as a graph in which nodes and/or edges have attributes (e.g. names). In this lesson we shall have a quick look at what this theory encompasses, what a graph looks like and also look at some real examples. 
 
 ## Objectives
+
+You will be able to: 
+
 * Understand and explain fundamental concepts and terminology used in graph theory
 * Describe a graph with its constituent components including nodes and edges
 * Understand different types of networks with respect to their formations
 
-### So what is a graph 
+## So what is a graph?
 
 A graph is one of the most common mathematical abstractions of data. Even if you have never encountered this mathematical concept before, you have most likely seen graphs in routine observations. A project plan, a circuit,  dependencies between code blocks in a software project are all examples of graphs. In this section we shall focus at the aspects of graph processing that play a role in network analysis (or social network analysis).
 ```
@@ -25,7 +28,7 @@ Right, so let's quickly see some basic definitions ..
 
 In social network analysis, nodes have a type. Each node may show a person, a company, a website, a tweet, etc. If a      graph contains nodes of only one type, it’s called a **1-mode graph**. If it contains relationships between      two types, it’s **bimodal** or 2-mode. We can also have **multimodal graphs**.
 
-### Parts of a Graph
+## Parts of a Graph
 
 <img src="http://i.imgur.com/upMNKXf.png" width="400">
 
@@ -38,7 +41,7 @@ __Attributes__: Both nodes and edges can store attributes, which contain additio
 __Weight__: A common *attribute* of edges, used to indicate *strength* or *value* of a relationship.
 
 
-### Graph Characteristics
+## Graph Characteristics
 
 Graphs are typically classified based on the presence of weights and direction attached to the edges in a graph. The table below covers what we call each type of graph:
 
@@ -62,18 +65,18 @@ In some cases, weights may be associated with nodes themselves instead of edges 
 
 Here are some more terms that you will come across in graph analysis
 
-### Adjacent node
+## Adjacent node
 A node 'v' is said to be adjacent node of node 'u' if and only if there exists an edge between 'u' and 'v'.
 
-### Degree of a node
+## Degree of a node
 * In an undirected graph the number of nodes incident on a node is the **degree** of the node.
 * In case of directed graph, **Indegree** of the node is the number of arriving edges to a node, whereas, **Outdegree** of the node is the number of departing edges to a node.
 ![](deg.png)
 
-### Isolated node:
+## Isolated node:
 A node with degree 0 is known as isolated node.Isolated node can be found by Breadth first search(BFS). It finds its application in LAN network in finding whether a system is connected or not.
 
-### Path: 
+## Path: 
 A path of length 'n' from node 'u' to node 'v' is defined as sequence of n+1 nodes.
 
 $$P(u,v)=(v0,v1,v2,v3…….vn)$$
@@ -81,8 +84,7 @@ $$P(u,v)=(v0,v1,v2,v3…….vn)$$
 A path is simple if all the nodes are distinct,exception is source and destination are same.
 
 
-
-### This is good , But why do I need to know about this ?
+## This is good , But why do I need to know about this ?
 
 Graph is a data structure which is used extensively in our real-life.
 
