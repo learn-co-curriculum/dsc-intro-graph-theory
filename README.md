@@ -17,7 +17,7 @@ You will be able to:
 
 ## Nodes and Edges: The Building Blocks of Graphs
 
-To start, graphs are compossed of two primary objects: **nodes** and **edges**. In the picture above, the nodes are the circles, while the lines that connect them are edges. Typically, nodes represent some entity such as a person, businesses, places, or webpages. In turn, edges then represent the relationships between these entities. For example, you might have a graph of a social network in which each node represents a person, and each edge represents whether those two individuals are connected or friends within the network.
+To start, graphs are composed of two primary objects: **nodes** and **edges**. In the picture above, the nodes are the circles, while the lines that connect them are edges. Typically, nodes represent some entity such as a person, businesses, places, or webpages. In turn, edges then represent the relationships between these entities. For example, you might have a graph of a social network in which each node represents a person, and each edge represents whether those two individuals are connected or friends within the network.
 
 <img src="images/graph2.png">
 
