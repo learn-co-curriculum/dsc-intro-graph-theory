@@ -11,9 +11,8 @@ In this lesson, you'll get an introduction to some basic terminology regarding g
 
 You will be able to: 
 
-* Understand and explain fundamental concepts and terminology used in graph theory
-* Describe a graph with its constituent components including nodes and edges
-* Understand different types of networks with respect to their formations
+- Explain what nodes and edges are in graph theory 
+- Explain the difference between directed and undirected graphs 
 
 ## Nodes and Edges: The Building Blocks of Graphs
 
@@ -21,7 +20,7 @@ To start, graphs are composed of two primary objects: **nodes** and **edges**. I
 
 <img src="images/graph2.png">
 
-As you can see, Jen is a well connected character in this scenario: she literally has a connecting edge with every other node in the graph! On the other hand, Jake is the least connected. He has no other connections other then Jen. 
+As you can see, Jen is a well connected character in this scenario: she has a connecting edge with literally every other node in the graph! On the other hand, Jake is the least connected. He has no other connections other than Jen. 
 
 ## Directed vs Undirected Graphs
 
@@ -29,11 +28,11 @@ Another important concept in graph theory is the difference between directed and
 
 <img src="images/graph3.png">
 
-As you can see, each of the edges now has an arrow indicating a direction.  This scenario could represent an alternative type of social network such as Twitter in which individual's relationships are not necessarily mutual. Instead, Twitter users can follow other users to stay up to date with their activity. In the graph depicted above, Sally isn't following anyone. However, Both Bob and Jen are following Sally. There is also one mutual relationship depicted: Jake is following Jen and she is also following him.
+As you can see, each of the edges now has an arrow indicating a direction. This scenario could represent an alternative type of social network such as Twitter in which individual's relationships are not necessarily mutual. Instead, Twitter users can follow other users to stay up to date with their activity. In the graph depicted above, Sally isn't following anyone. However, both Bob and Jen are following Sally. There is also one mutual relationship depicted: Jake is following Jen and she is also following him.
 
 ## Connectedness
 
-Connectedness aims to quantify the number of edges attached to a node. In the diagrams above, Jen is undoubtedly the most connected of the individuals depicted. In the undirected graph, she was connected to everyone. Similarly, if your goal is to become an influencer, you're going to need to develop quite the following and become a very connected node. You'll explore more details in how connectedness is quantified in the upcoming lessons. For now, take some time to think about other implications of connectedness. For example, how might you be able to use connectedness to determine friend circles or cliques in social networks?
+Connectedness aims to quantify the number of edges attached to a node. In the graphs above, Jen is undoubtedly the most connected of the individuals depicted. In the undirected graph, she was connected to everyone. Similarly, if your goal is to become an *influencer*, you're going to need to develop quite the following and become a very connected node. You'll explore more details in how connectedness is quantified in the upcoming lessons. For now, take some time to think about other implications of connectedness. For example, how might you be able to use connectedness to determine friend circles or cliques in social networks?
 
 ## Path Searching
 
