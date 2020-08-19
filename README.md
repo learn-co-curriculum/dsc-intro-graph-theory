@@ -5,7 +5,7 @@
 
 In this lesson, you'll get an introduction to some basic terminology regarding graphs and graph theory. To start, here's a graph!
 
-<img src=images/graph1.png>
+<img src="images/graph1.png">
 
 ## Objectives
 
